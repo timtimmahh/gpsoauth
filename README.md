@@ -5,8 +5,6 @@ Based on [gpsoauth-java](https://github.com/svarzee/gpsoauth-java) by [swarzee](
 
 With this library you can log in using username and password.
 
-You can link the library in your dependencies manager by following instructions on [https://jitpack.io/#svarzee/gpsoauth-java](https://jitpack.io/#svarzee/gpsoauth-java).
-
 Simplest usage:
 ```
 val token: AuthToken = Gpsoauth().login("username", "password", "androidId", "service", "app", "clientSig")
